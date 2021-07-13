@@ -62,6 +62,10 @@ a {
   margin-left: 12px;
 }
 
+#video-4 {
+  display: none;
+}
+
 /* Header --- Section --- Css --- Start --- Here  */
 
 .header-section {
