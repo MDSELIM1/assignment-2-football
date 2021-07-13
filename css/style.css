@@ -124,6 +124,7 @@ a {
 .banner-main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 30px;
   align-items: center;
   padding-top: 100px;
 }
@@ -133,7 +134,7 @@ a {
 }
 
 .banner-text h1 {
-  font-size: 60px;
+  font-size: 65px;
   color: #ffffff;
   margin-bottom: 45px;
   font-weight: 700;
@@ -175,4 +176,73 @@ a {
   color: #6c6c6c;
   line-height: 1.7;
 }
+
 /* Player --- Section --- Css --- End --- Here  */
+
+/* Highlight --- Section --- Css --- Start --- Here  */
+
+.highlight-section {
+  padding: 50px 0 40px;
+}
+
+.high-light-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 40px;
+  align-items: center;
+}
+
+.hight-light-text h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.hight-light-text p {
+  margin-bottom: 50px;
+}
+
+.hight-light-img img {
+  width: 100%;
+}
+
+/* Highlight --- Section --- Css --- End --- Here  */
+
+/* Contact ---- Section --- Css --- Start --- Here  */
+
+.contact-section {
+  padding: 80px 0;
+}
+
+.head {
+  font-size: 60px;
+  text-align: center;
+  color: #30336b;
+  padding-bottom: 65px;
+}
+
+.conatact-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 40px;
+  align-items: center;
+}
+
+.contact-address p {
+  font-size: 30px;
+  padding: 25px 0;
+  color: #e74c3c;
+  font-weight: 500;
+}
+.contact-address p b {
+  font-size: 35px;
+  color: #c0392b;
+}
+
+.contact-map iframe {
+  width: 100%;
+  border: 2px solid #efefef;
+  padding: 5px;
+}
+
+/* Contact ---- Section --- Css --- End --- Here  */
