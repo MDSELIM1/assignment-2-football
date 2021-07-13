@@ -1,0 +1,142 @@
+/* Google --- Font --- Link ---  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* Default --- Css --- Code ---  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.cmn-button {
+  padding: 12px 30px;
+  color: #ffffff;
+  background-color: #e02c6d;
+  font-size: 18px;
+  display: inline-block;
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+}
+
+.cmn-button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #e74c3c;
+  z-index: -1;
+  transition: 0.5s;
+  transform-origin: left center;
+}
+
+.cmn-button:hover::after {
+  width: 100%;
+}
+
+.cmn-button i {
+  margin-left: 12px;
+}
+
+/* Header --- Section --- Css --- Start --- Here  */
+
+.header-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 40px 0;
+  z-index: 99;
+}
+
+.header-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.header-menu > ul {
+  display: flex;
+}
+
+.header-menu > ul > li > a {
+  font-size: 17px;
+  padding: 10px 20px;
+  font-weight: 500;
+  color: #ffffff;
+  transition: 0.4s;
+}
+
+.header-menu > ul > li > a:hover {
+  color: #ff4500;
+}
+
+.header-login {
+  text-align: right;
+}
+
+.header-login > .cmn-button i {
+  margin-left: 0;
+  margin-right: 12px;
+}
+
+.header-login > .cmn-button {
+  padding: 10px 20px;
+  margin-left: 30px;
+  border-radius: 23px;
+  font-size: 16px;
+}
+.header-login > .cmn-button::after {
+  border-radius: 23px;
+}
+
+/* Header --- Section --- Css --- End --- Here  */
+
+/* Banner --- Section --- Css --- Start --- Here  */
+
+.banner-section {
+  padding: 70px 0 100px;
+  background-color: #2d25a0;
+  position: relative;
+}
+
+.banner-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  padding-top: 100px;
+}
+
+.banner-image img {
+  width: 100%;
+}
+
+.banner-text h1 {
+  font-size: 60px;
+  color: #ffffff;
+  margin-bottom: 45px;
+  font-weight: 700;
+}
+
+/* Banner --- Section --- Css --- End --- Here  */
