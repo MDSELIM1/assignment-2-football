@@ -140,7 +140,7 @@ a {
 }
 
 .banner-image img {
-  width: 100%;
+  width: 95%;
   animation-name: image;
   animation-duration: 3s;
   animation-delay: 1s;
