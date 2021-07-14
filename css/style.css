@@ -36,6 +36,7 @@ a {
   font-size: 18px;
   display: inline-block;
   font-weight: 500;
+  overflow: hidden;
   position: relative;
   z-index: 1;
   border-radius: 5px;
